@@ -60,4 +60,18 @@
 .blog-action-btn-group button img {
   height: 20px;
 }
+.new-blog--wrapper {
+  width: 60%;
+  /* max-height: 450px;
+  overflow-y: scroll; */
+  padding-top: 40px;
+  margin: 0 auto;}
 
+.publish-button {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 10px;
+  border: 0;
+  background:transparent;
+  cursor: pointer;
+}

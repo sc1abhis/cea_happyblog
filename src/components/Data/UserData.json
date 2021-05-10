@@ -1,0 +1,28 @@
+[
+    {
+      "id": "A",
+      "url": "",
+      "title": "My First Blog",
+      "subtitle": "",
+      "postdata" : "",
+      "image": "1.png",
+      "claps": 850,
+      "responses": "8",
+      "reading_time": 8,
+      "publication": "Life",
+      "date": "2019-05-30"
+    },
+    {
+      "id": "B",
+      "url": "",
+      "title": "My Second Blog",
+      "subtitle": "",
+      "postdata" : "",
+      "image": "2.png",
+      "claps": 1100,
+      "responses": "11",
+      "reading_time": 9,
+      "publication": "Reality",
+      "date": "2019-05-30"
+    }
+]

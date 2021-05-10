@@ -14,6 +14,8 @@ import BookmarksOutlinedIcon from '@material-ui/icons/BookmarksOutlined';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 import Divider from '@material-ui/core/Divider';
 
+import {Link, useHistory, useLocation, Route, Redirect} from 'react-router-dom'
+
 import Button from '@material-ui/core/Button';
 import {Avatar} from '@material-ui/core'
 
@@ -86,7 +88,8 @@ padding: 15px;
 
 const Header = () => {
 
-    let displayName = "Abhishek Salvi"
+	let displayName = "Abhishek Salvi";
+
 
     return (
         <>
@@ -95,9 +98,11 @@ const Header = () => {
                     <ContainerStart>
                         <HomeLink to="/">
                             <img className="logo" src="" alt="" />
-                            <Typography variant="h6" className="app-title">
-                               CEA HappyBlog
-						</Typography>
+							<Link to='/'>
+								<Typography variant="h6" className="app-title">
+									CEA HappyBlog
+							</Typography>
+							</Link>
                             <span className="alpha">alpha</span>
                         </HomeLink>
                         <Divider orientation="vertical" />
@@ -109,18 +114,28 @@ const Header = () => {
                     </ContainerStart>
 
                     <ContainerEnd>
-                    
+                
+					
                     <IconButton color="inherit">
-						<UserButtonIcon src = "" alt={displayName}>
+						<div>
 							
-						</UserButtonIcon>
-                    
-					</IconButton>
-                   
+							<UserButtonIcon src = "../abhi.jpg" alt={displayName}></UserButtonIcon>
+							
+						</div>
+				    </IconButton>
 
+                    
+					
                     <NavBarItems>
+					<Link to='/NewPost'>
                         <Button variant="outlined"> Write </Button>
-                    </NavBarItems>
+                    </ Link>
+					</NavBarItems>
+					<NavBarItems>
+					<Link to='/MyPosts'>
+                        <Button variant="outlined"> My Posts </Button>
+                    </ Link>
+					</NavBarItems>
                     <NavBarItems>
                         <NotificationsNoneIcon />
                     </NavBarItems>

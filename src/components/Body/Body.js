@@ -9,6 +9,7 @@ import BlogCard from '../Body/BlogCard'
 import React, { Component } from 'react'
 
 import BloggingData from '../Data/mediumdata.json'
+// import UserData from 
 import { LensOutlined } from '@material-ui/icons';
 
 export default class Body extends Component {

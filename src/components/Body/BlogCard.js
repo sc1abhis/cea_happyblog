@@ -68,11 +68,11 @@ export default function BlogCard(props) {
             <p>Published in: {props.BlogData.publication}</p>
             <h2>{props.BlogData.title}</h2>
             <p>{props.BlogData.subtitle}</p>
-            <div> Created date {props.BlogData.date}</div>
+            {/* <div> Created date {props.BlogData.date}</div> */}
 
             <div class="blog-actions-bar">
                 <div class="learn-more-link">
-                    <a href={props.BlogData.url} target="blank">Learn More</a>
+                    <a href={props.BlogData.url} target="blank">Continue Reading</a>
                 </div>
                 
                 <div class="blog-action-btn-group">
