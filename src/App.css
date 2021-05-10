@@ -1,3 +1,63 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.blogs-section-wrapper {
+    width: 60%;
+    /* max-height: 450px;
+    overflow-y: scroll; */
+    padding-top: 40px;
+    margin: 0 auto;
 }
+
+.card-content-wrapper {
+  display: flex;
+  height: 150px;
+  margin-bottom: 40px;
+}
+
+.blog-left-content {
+  width: 65%;
+}
+
+.blog-left-content h2 {
+  width: 80%;
+}
+
+.blog-right-content {
+  width: 35%;
+}
+
+.blog-right-content img {
+  width: auto;
+  height: 150px;
+}
+
+.blog-actions-bar {
+  display: flex;
+}
+
+.learn-more-link a {
+  text-decoration: none;
+  color: gray;
+}
+
+.blog-action-btn-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: row-reverse;
+}
+
+.blog-action-btn-group button {
+  margin-right: 10px;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.blog-action-btn-group button img {
+  height: 20px;
+}
+
